@@ -6,21 +6,21 @@
     <meta name="viewport" id="metaViewport" content="user-scalable=no, initial-scale=1, width=device-width, viewport-fit=cover" data-tdv-general-scale="0.5"/>
     <meta name="apple-mobile-web-app-capable" content="yes"/>
     <meta name="apple-mobile-web-app-status-bar-style" content="default">
-    <link rel="preload" href="locale/en.txt?v=1642640739875" as="fetch" crossorigin="anonymous"/>
-	<link rel="preload" href="script.js?v=1642640739875" as="script"/>
-	<link rel="preload" href="media/panorama_A4CE9211_B614_6D88_41E1_8586E62760B9_0/r/3/0_0.jpg?v=1642640739875" as="image"/>
-	<link rel="preload" href="media/panorama_A4CE9211_B614_6D88_41E1_8586E62760B9_0/l/3/0_0.jpg?v=1642640739875" as="image"/>
-	<link rel="preload" href="media/panorama_A4CE9211_B614_6D88_41E1_8586E62760B9_0/u/3/0_0.jpg?v=1642640739875" as="image"/>
-	<link rel="preload" href="media/panorama_A4CE9211_B614_6D88_41E1_8586E62760B9_0/d/3/0_0.jpg?v=1642640739875" as="image"/>
-	<link rel="preload" href="media/panorama_A4CE9211_B614_6D88_41E1_8586E62760B9_0/f/3/0_0.jpg?v=1642640739875" as="image"/>
-	<link rel="preload" href="media/panorama_A4CE9211_B614_6D88_41E1_8586E62760B9_0/b/3/0_0.jpg?v=1642640739875" as="image"/>
+    <link rel="preload" href="locale/en.txt?v=1643159372644" as="fetch" crossorigin="anonymous"/>
+	<link rel="preload" href="script.js?v=1643159372644" as="script"/>
+	<link rel="preload" href="media/panorama_A4CE9211_B614_6D88_41E1_8586E62760B9_0/r/3/0_0.jpg?v=1643159372644" as="image"/>
+	<link rel="preload" href="media/panorama_A4CE9211_B614_6D88_41E1_8586E62760B9_0/l/3/0_0.jpg?v=1643159372644" as="image"/>
+	<link rel="preload" href="media/panorama_A4CE9211_B614_6D88_41E1_8586E62760B9_0/u/3/0_0.jpg?v=1643159372644" as="image"/>
+	<link rel="preload" href="media/panorama_A4CE9211_B614_6D88_41E1_8586E62760B9_0/d/3/0_0.jpg?v=1643159372644" as="image"/>
+	<link rel="preload" href="media/panorama_A4CE9211_B614_6D88_41E1_8586E62760B9_0/f/3/0_0.jpg?v=1643159372644" as="image"/>
+	<link rel="preload" href="media/panorama_A4CE9211_B614_6D88_41E1_8586E62760B9_0/b/3/0_0.jpg?v=1643159372644" as="image"/>
 	<meta name="description" content="Virtual Tour"/>
 	<meta name="theme-color" content="#292E6B"/>
-    <script src="lib/tdvplayer.js?v=1642640739875"></script>
-    <script src="script.js?v=1642640739875"></script>
+    <script src="lib/tdvplayer.js?v=1643159372644"></script>
+    <script src="script.js?v=1643159372644"></script>
     <script type="text/javascript">
         var tour;
-        var devicesUrl = {"general":"script_general.js?v=1642640739875","mobile":{"portrait":"script_mobile.js?v=1642640739875","landscape":"script_general.js?v=1642640739875"}};
+        var devicesUrl = {"general":"script_general.js?v=1643159372644","mobile":{"portrait":"script_mobile.js?v=1643159372644","landscape":"script_general.js?v=1643159372644"}};
 
         (function()
         {
@@ -63,9 +63,9 @@
 
             var settings = new TDV.PlayerSettings();
             settings.set(TDV.PlayerSettings.CONTAINER, document.getElementById('viewer'));
-            settings.set(TDV.PlayerSettings.WEBVR_POLYFILL_URL, 'lib/WebVRPolyfill.js?v=1642640739875');
-            settings.set(TDV.PlayerSettings.HLS_URL, 'lib/Hls.js?v=1642640739875');
-            settings.set(TDV.PlayerSettings.QUERY_STRING_PARAMETERS, 'v=1642640739875');
+            settings.set(TDV.PlayerSettings.WEBVR_POLYFILL_URL, 'lib/WebVRPolyfill.js?v=1643159372644');
+            settings.set(TDV.PlayerSettings.HLS_URL, 'lib/Hls.js?v=1643159372644');
+            settings.set(TDV.PlayerSettings.QUERY_STRING_PARAMETERS, 'v=1643159372644');
 
             tour = new TDV.Tour(settings, devicesUrl);
             tour.bind(TDV.Tour.EVENT_TOUR_INITIALIZED, onVirtualTourInit);
@@ -312,10 +312,10 @@
         #viewer { z-index:1; }
         #preloadContainer { z-index:2; opacity:0; background-color:rgba(41,46,107,1); transition: opacity 0.5s; -webkit-transition: opacity 0.5s; -moz-transition: opacity 0.5s; -o-transition: opacity 0.5s;}
     </style>
-    <link rel="stylesheet" href="fonts.css?v=1642640739875">
+    <link rel="stylesheet" href="fonts.css?v=1643159372644">
 </head>
 <body>
-    <div id="preloadContainer" class="fill-viewport"><div style="z-index: 4; position: absolute; background-image: url('loading/HTMLImage_A33B7E19_BA46_AACE_41E5_5566A0BD1D17.png'); background-size: contain; background-repeat: no-repeat; background-position: center center; overflow: hidden; right: 0%; bottom: 31.36092362344583%; width: 100.00%; height: 25.23%"></div><div style="z-index: 5; position: absolute; left: 0%; bottom: 13.645204262877444%; width: 100.00%; height: 10.48%"><div style="text-align:left; color:#000; "><DIV STYLE="text-align:center;font-size:22px;"><SPAN STYLE="display:inline-block; letter-spacing:0px; white-space:pre-wrap;color:#000000;font-family:Arial, Helvetica, sans-serif;"><SPAN STYLE="color:#ffffff;font-size:22px;font-family:'Roboto';">Clique na tela para começar</SPAN></SPAN></DIV></div></div><div style="z-index: 6; position: absolute; left: 0%; top: 17.99666074600355%; width: 100.00%; height: 17.88%"><div style="text-align:left; color:#000; "><DIV STYLE="text-align:center;font-size:50px;"><SPAN STYLE="display:inline-block; letter-spacing:0px; white-space:pre-wrap;color:#000000;font-family:Arial, Helvetica, sans-serif;"><SPAN STYLE="color:#ffffff;font-size:50px;font-family:'Roboto Slab';">Museu Virtual</SPAN></SPAN></DIV></div></div></div>
+    <div id="preloadContainer" class="fill-viewport"><div style="z-index: 4; position: absolute; background-image: url('loading/HTMLImage_A33B7E19_BA46_AACE_41E5_5566A0BD1D17.png'); background-size: contain; background-repeat: no-repeat; background-position: center center; overflow: hidden; right: 0%; bottom: 31.36%; width: 100.00%; height: 25.23%"></div><div style="z-index: 5; position: absolute; left: 0%; bottom: 13.65%; width: 100.00%; height: 10.48%"><div style="text-align:left; color:#000; "><DIV STYLE="text-align:center;font-size:22px;"><SPAN STYLE="display:inline-block; letter-spacing:0px; white-space:pre-wrap;color:#000000;font-family:Arial, Helvetica, sans-serif;"><SPAN STYLE="color:#ffffff;font-size:22px;font-family:'Roboto';">Clique na tela para começar</SPAN></SPAN></DIV></div></div><div style="z-index: 6; position: absolute; left: 0%; top: 18%; width: 100.00%; height: 17.88%"><div style="text-align:left; color:#000; "><DIV STYLE="text-align:center;font-size:50px;"><SPAN STYLE="display:inline-block; letter-spacing:0px; white-space:pre-wrap;color:#000000;font-family:Arial, Helvetica, sans-serif;"><SPAN STYLE="color:#ffffff;font-size:50px;font-family:'Roboto Slab';">Museu Virtual</SPAN></SPAN></DIV></div></div></div>
     <div id="viewer" class="fill-viewport"></div>
 </body>
 </html>
